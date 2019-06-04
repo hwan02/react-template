@@ -1,0 +1,133 @@
+
+/*===============Contact==============*/
+.Contact__mt {
+  margin-top: 4rem;
+}
+/*===============Footer==============*/
+
+Footer {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 4rem;
+}
+
+.Footer__copyright {
+  margin-bottom: 0.3rem;
+  color: #fff;
+}
+
+.Footer__credits {
+  margin-botom: 0;
+  color: #fff;
+}
+
+.Footer__credits a{
+  color: #fff;
+}
+/*===============Contact Form==============*/
+.Form__sendMessage {
+  color: #0078ff;
+  border: 1px solid #0078ff;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.Form__errorMessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.Form__FormGroup__validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.M_B_3{
+  margin-bottom: 1rem !important;
+}
+/*===============Button==================*/
+.Button {
+  display: block;
+  padding: .8rem 0;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1rem;
+  border-radius: .3rem;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+  background-color: #ffd460;
+  width: 100%;
+  cursor: pointer;
+  color: #011a30;
+  font-size: 1.5rem;
+}
+
+.Button:hover, .Button:focus{
+    color: #ffd460;
+    background-color: #011a30;
+}
+
+/*==================Section==============*/
+.Section {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+
+  padding: 4rem 0 0 0;
+  background-image: url("/images/footer_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+// .sect-mt4 {
+//   margin-top: 4rem;
+// }
+
+.Section__div {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+}
+
+.BOX__shadow__full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  margin-bottom: 3rem;
+  z-index: 2;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select, textarea{
+  background: #fff;
+}
+
+/*===============Socials icon===============*/
+.List__ico__Wrap{
+  padding: 1.5rem 2rem;
+  background: rgba(255,255,255,0.5);
+}
+
+/*=======================================*/
+@media screen and (max-width: 767px){
+  .List__ico__Wrap{
+    margin-top: 2rem;
+  }
+}

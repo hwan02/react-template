@@ -1,0 +1,92 @@
+.Shop {
+  background-color: #e5e5e5;
+  color: #011a30;
+  padding: 4rem 0;
+  margin: 0;
+}
+
+.Shop__Title{
+  position: relative;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Shop__Desc{
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #011a30;
+}
+
+.Shop__Wrap{
+  position: relative;
+  width: 100%;
+  text-align: right;
+  background-image: url('/images/function_app.png');
+  background-repeat: no-repeat;
+  background-size: 58%;
+  background-position: left bottom;
+  height: 45rem;
+}
+
+.Shop__Cont{
+  text-align: left;
+}
+
+.Store__btn{
+  padding: 0;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  width: 40%;
+  margin-right: 2rem;
+}
+
+.Store__btn:hover, .Store__btn:focus, .Store__btn:visited {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.Store__btn img{
+  width: 100%;
+}
+
+.Shop__Btn{
+  color: #011a30;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 1rem 5rem;
+  margin: 0 auto;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: .3rem;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+  background-color: #ffd460;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.Shop__Btn:hover, .Shop__Btn:focus{
+  color: #ffd460;
+  background-color: #011a30;
+}
+
+@media screen and (max-width: 767px){
+  .Shop__Wrap{
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .Shop__Wrap{
+    height: 30rem;
+  }
+
+  .Shop__Desc{
+    font-size: 1rem;
+  }
+}

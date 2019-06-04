@@ -1,0 +1,149 @@
+/* Banner */
+
+	.Banner {
+		display: -ms-flexbox;
+		-ms-flex-pack: center;
+		-ms-flex-align: center;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: block !important;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		background-color: #eeeeee;
+		border-top: 0;
+		padding: 8rem 0 3rem;
+		width: 100%;
+		position: relative;
+		text-align: left;
+		overflow: hidden;
+	}
+
+		.Banner__inner__wrap {
+			width: 100%;
+			background-image: url("/images/banner_background.jpg");
+			background-position: right top;
+			background-size: 70%;
+			background-repeat: no-repeat;
+			position:relative;
+		}
+
+		.Banner__inner {
+			margin-bottom: 3em;
+			-moz-transform: scale(1.0);
+			-webkit-transform: scale(1.0);
+			-ms-transform: scale(1.0);
+			transform: scale(1.0);
+			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+			transition: opacity 1s ease, transform 1s ease;
+			display: inline-block;
+			opacity: 1;
+			position: relative;
+			z-index: 2;
+			background-color: rgba(238,238,238,0.8);
+			padding: 1rem;
+		}
+
+		.Banner_insta a{
+			padding-left: 1rem;
+			color: #011a30 !important;
+		}
+
+		.Banner h1 {
+			font-weight: 600;
+			font-size: 4rem;
+			margin-bottom: 1rem;
+			color: #011a30;
+		}
+		.Banner h1 span{
+			font-size: 1.5rem;
+		}
+		.Banner h2{
+			font-size: 2rem;
+			margin-bottom: 1rem;
+			color: #011a30;
+			font-weight: 600;
+		}
+
+		.Banner p {
+			color: #011a30;
+			font-size: 1.5rem;
+			margin-bottom: 3rem;
+		}
+
+		.Banner a {
+			color: #FFF;
+			text-decoration: none;
+		}
+
+		.Banner_insta{
+			position:absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1000;
+		}
+
+		.Banner:before {
+			-moz-transition: opacity 3s ease;
+			-webkit-transition: opacity 3s ease;
+			-ms-transition: opacity 3s ease;
+			transition: opacity 3s ease;
+			-moz-transition-delay: 1.25s;
+			-webkit-transition-delay: 1.25s;
+			-ms-transition-delay: 1.25s;
+			transition-delay: 1.25s;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.45;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.Banner {
+				min-height: 0;
+				height: auto !important;
+				padding: 6rem 2rem 4rem 2rem;
+			}
+
+				.Banner h1 {
+					font-size: 1.75em;
+					margin-bottom: 0.5em;
+					padding-bottom: 0;
+				}
+
+				.Banner h1 p{
+					font-size: 0.75em;
+					font-weight: 600;
+				}
+
+				.Banner p {
+					font-size: 1.25em;
+				}
+
+				.Banner br {
+					display: none;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.Banner p {
+				font-size: 1em;
+			}
+
+		}

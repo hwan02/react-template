@@ -1,0 +1,202 @@
+.Function {
+  color: #a6a6a6;
+  margin-bottom: 3rem;
+  position: relative;
+  margin: 0;
+}
+
+.Function_List{
+  padding: 6rem 0 6rem;
+}
+
+.Function_List_Image{
+  display: block;
+  margin: 0 auto 1rem;
+  width: 8rem;
+}
+
+.Function_List_Title{
+  color: #011a30;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.Function__Title{
+  position: relative;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Function__Title p{
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Function__Title p:nth-child(2n){
+  margin-left: 2rem;
+}
+
+.Function__Title:before {
+  content: '';
+  position: absolute;
+  width: 4rem;
+  height: 0.15rem;
+  background-color: #011a30;
+  bottom: 0;
+  transform: translatey(50%);
+}
+
+.Function__Desc{
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #011a30;
+}
+
+.Function__Cont{
+  min-height: 25rem;
+  padding: 3rem 0;
+}
+
+.Function__Cont__Odd{
+  margin-left: 5%;
+}
+.Function__Image__Wrap{
+  width: 90%;
+  position: absolute;
+  min-height: 30rem;
+  background-color: #ccc;
+}
+
+.Function__Image__Wrap__Even{
+  margin-right: 15px;
+  right: -100%;
+  top: -20%;
+}
+
+.Function__Image__Wrap__Odd{
+  margin-left: 15px;
+  left: -100%;
+  top: -15%;
+}
+
+.Function__Image__Wrap img{
+  height: 20rem;
+  position: absolute;
+}
+
+.Function__Attach .Function__Image__Wrap{
+  background-color: #8c97cb;
+}
+
+.Function__Attach .Function__Image__Wrap img{
+  top: 50%;
+  transform: translateY(-50%);
+  right: -2rem;
+}
+
+.Function_Custom .Function__Image__Wrap{
+  background-color: #d1c0a5;
+}
+
+.Function_Custom .Function__Image__Wrap img{
+  bottom: 0;
+  left: -2.5rem;
+}
+
+.Function__Group .Function__Image__Wrap {
+  background-color: #88abda;
+}
+
+.Function__Group .Function__Image__Wrap img{
+  top: 50%;
+  transform: translateY(-50%);
+  height: 23rem;
+  right: -3rem;
+}
+
+.Function__Alert .Function__Image__Wrap{
+  background-color: #f29c9f;
+}
+
+.Function__Alert .Function__Image__Wrap img{
+  top: 50%;
+  transform: translateY(-50%);
+  height: 25rem;
+  left: -2rem;
+}
+
+.Function__Notify .Function__Image__Wrap{
+  background-color: #acd598;
+}
+
+.Function__Notify .Function__Image__Wrap img{
+  height: 25rem;
+  top: 0;
+  right: -1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .Function_List_Title{
+    font-size: 1.2rem;
+  }
+
+  .Function__Title{
+    font-size: 1.4rem;
+  }
+
+  .Function__Title:before {
+    width: 3rem;
+  }
+
+  .Function__Title p{
+    font-size: 1.4rem;
+  }
+
+  .Function__Desc{
+    font-size: 1.1rem;
+  }
+
+}
+
+@media screen and (max-width:767px){
+  .Function__Image__Wrap{
+    position: static;
+    min-height: 20rem;
+  }
+
+  .Function__Image__Wrap img{
+    height: 20rem !important;
+    top: 0 !important;
+    left: 50% !important;
+    transform: translate(-50%, 0) !important;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .Function_List_Title{
+    font-size: 1.3rem;
+  }
+
+  .Function__Title{
+    font-size: 1.3rem;
+  }
+
+  .Function__Title:before {
+    width: 2.5rem;
+  }
+
+  .Function__Title p{
+    font-size: 1.3rem;
+  }
+
+  .Function__Desc{
+    font-size: 1rem;
+  }
+
+  .Function__Cont{
+    min-height: 15rem;
+  }
+}

@@ -1,0 +1,52 @@
+.Introduce {
+  background-color: #e5e5e5;
+  color: #011a30;
+  padding: 1rem 0 0;
+  position: relative;
+  margin: 0;
+}
+
+.Introduce__inner h2{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.Introduce__box {
+  position: relative;
+}
+
+.Introduce__image {
+  // display: block;
+  margin: 0;
+  width: 100%;
+  border: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.Introduce__image img {
+  width: 100%;
+  display: block;
+}
+
+.Introduce__image__top img{
+  position: absolute;
+  width: 25%;
+  top: -25%;
+  left: 68%;
+}
+
+.Introduce__image__left img{
+  position: absolute;
+  width: 25%;
+  left: -2%;
+  bottom: 20%;
+}
+
+.Introduce__image__bottom img{
+  position: absolute;
+  width: 25%;
+  right: 2%;
+  bottom: -10%;
+}

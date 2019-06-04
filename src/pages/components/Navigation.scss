@@ -1,0 +1,218 @@
+/*======================================
+//--//-->   NAVBAR
+======================================*/
+
+.NavbarBrand>img {
+  padding: 7px 14px;
+  width: 8rem;
+  height: inherit;
+}
+
+.NavItem {
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+
+.Navbar {
+  transition: all .5s ease-in-out;
+  background-color: transparent;
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
+}
+
+.Navbar__reduce {
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  transition: all .5s ease-in-out;
+  background-color: rgba(1, 26, 48, 0.75);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Navbar__nav {
+  margin-left: auto;
+}
+// .Navbar.navbar-trans .nav-item,
+// .Navbar.navbar-reduce .nav-item {
+//
+// }
+.NavLink {
+  color: #011a30;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+
+.NavLink:before {
+  content: '/';
+  position: absolute;
+  margin-left: 0px;
+  width: 0%;
+  top: 0;
+  left: 10%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+
+.Navbar__nav .NavItem:nth-child(1) .NavLink:before{
+    display: none;
+}
+.NavLink:hover {
+  color: #ffd460;
+}
+
+.NavLink:hover:before {
+  color: #011a30;
+}
+
+.active:before {
+  width: 35px;
+}
+
+// .Navbar.navbar-trans .nav-link:before {
+//   background-color: #fff;
+// }
+//
+// .Navbar.navbar-trans .nav-link:hover {
+//   color: #fff;
+// }
+
+// .Navbar.navbar-trans .show > .nav-link,
+// .Navbar.navbar-trans .active > .nav-link,
+// .Navbar.navbar-trans .nav-link.show,
+// .Navbar.navbar-trans .nav-link.active {
+//   color: #fff;
+// }
+
+// .Navbar.navbar-reduce {
+//
+// }
+
+.Navbar__reduce a {
+  color: #f6bb43;
+}
+
+.Navbar__reduce a:hover {
+  color: #011a30;
+}
+
+.Navbar__reduce .NavLink:hover:before {
+  color: #ffd460;
+}
+
+// .Navbar.navbar-reduce .show > .nav-link,
+// .Navbar.navbar-reduce .active > .nav-link,
+// .Navbar.navbar-reduce .nav-link.show,
+// .Navbar.Navbar__reduce .nav-link.active {
+//   color: #f6bb43;
+// }
+
+// .Navbar.Navbar-reduce .navbar-brand {
+//   color: #f6bb43;
+// }
+
+.NavbarToggler span {
+  background-color: #1B1B1B;
+}
+
+// .Narvbar .navbar-brand {
+//   color: #fff;
+//   font-size: 1.6rem;
+//   font-weight: 600;
+// }
+
+// .Narvbar .navbar-nav .dropdown-item.show .dropdown-menu,
+// .Narvbar .dropdown.show .dropdown-menu,
+// .Narvbar .dropdown-btn.show .dropdown-menu {
+//   -webkit-transform: translate3d(0px, 0px, 0px);
+//   transform: translate3d(0px, 0px, 0px);
+//   visibility: visible !important;
+// }
+
+// .Narvbar .dropdown-menu {
+//   margin: 1.12rem 0 0;
+//   border-radius: 0;
+// }
+
+// .Narvbar .dropdown-menu .dropdown-item {
+//   padding: .7rem 1.7rem;
+//   transition: all 500ms ease;
+// }
+//
+// .Narvbar .dropdown-menu .dropdown-item:hover {
+//   background-color: #0078ff;
+//   color: #fff;
+//   transition: all 500ms ease;
+// }
+
+// .Narvbar .dropdown-menu .dropdown-item.active {
+//   background-color: #0078ff;
+// }
+
+/*--/ Hamburger Navbar /--*/
+
+.NavbarToggler {
+  position: relative;
+}
+
+.NavbarToggler:focus,
+.NavbarToggler:active {
+  outline: 0;
+}
+
+@media screen and (max-width:767px){
+  .NavLink:before{
+    content: '';
+  }
+
+  .Navbar__nav{
+    background-color: rgba(255,255,255,0.5);
+  }
+}
+
+// .navbar-toggler span {
+//   display: block;
+//   background-color: #fff;
+//   height: 3px;
+//   width: 25px;
+//   margin-top: 4px;
+//   margin-bottom: 4px;
+//   -webkit-transform: rotate(0deg);
+//   transform: rotate(0deg);
+//   left: 0;
+//   opacity: 1;
+// }
+
+// .navbar-toggler span:nth-child(1),
+// .navbar-toggler span:nth-child(3) {
+//   transition: -webkit-transform .35s ease-in-out;
+//   transition: transform .35s ease-in-out;
+//   transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;
+// }
+//
+// .navbar-toggler:not(.collapsed) span:nth-child(1) {
+//   position: absolute;
+//   left: 12px;
+//   top: 10px;
+//   -webkit-transform: rotate(135deg);
+//   transform: rotate(135deg);
+//   opacity: 0.9;
+// }
+// //
+// .navbar-toggler:not(.collapsed) span:nth-child(2) {
+//   height: 12px;
+//   visibility: hidden;
+//   background-color: transparent;
+// }
+// //
+// .navbar-toggler:not(.collapsed) span:nth-child(3) {
+//   position: absolute;
+//   left: 12px;
+//   top: 10px;
+//   -webkit-transform: rotate(-135deg);
+//   transform: rotate(-135deg);
+//   opacity: 0.9;
+// }
